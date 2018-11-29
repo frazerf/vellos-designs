@@ -1,0 +1,37 @@
+/* ==========================================================================
+Global Variables
+========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans+SC:400|Raleway:300');
+/* --- Typography --- */
+
+$font-base: 'Raleway', sans-serif;
+$font-heading: 'Playfair Display', serif;
+$title-heading: 'Noto Sans SC', serif;
+
+/* --- Image Path --- */
+
+$image-path: "../../src/images/";
+
+/* --- Base Colours Black/White --- */
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+/* --- Brand Colours --- */
+
+$brand-primary: #2f363e;
+$brand-secondary: #E3CDA1;
+
+/* --- Link Colours --- */
+
+$link-primary: #aaaaaa;
+$link-primary-hover: #aaaaaa;
+
+/* --- Rounded corners --- */
+
+$round-corners: 3px;
+
+/* --- Animations --- */
+
+$base-duration: 300ms;
+$link-animation: color $base-duration ease-in-out;
